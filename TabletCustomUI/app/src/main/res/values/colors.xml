@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <drawable name="rotate_drawable_color">#000000</drawable>
+    <color name="outer_circle_color">#017491</color>
+    <color name="inner_circle_color">#A1B2B9</color>
+    <color name="text_circle_color">#001727</color>
+    <color name="circle_light_blue">#02a8ff</color>
+    <color name="circle_dark_blue">#1a68ab</color>
+    <color name="circle_light_grey">#b5dcdc</color>
+    <color name="circle_purple_color">#9777cc</color>
+</resources>
