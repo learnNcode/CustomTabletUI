@@ -5,11 +5,11 @@ Custom tablet UI animation for landscape orientation.
 
 ## Usage
 
-Usage is pretty simple and straight forward. You need to add it programmatically.
+Usage is pretty simple and straight forward. You need to add it programmatically. Set the orientation of your activity to landscape in the manifest file. You can access the childviews sequentially as shown below...
 Ex: 
   ```
-        //Create an object of CircileHorizontalContainer. This requires 3 params. 1> Context 2> Number of childviews to be           //created to the right. 3> Callback
-        CircleHorizontalContainer circleHorizontalContainer = new CircleHorizontalContainer(CustomTabletUIActivity.this, 2,          CustomTabletUIActivity.this);
+        //Create an object of CircleHorizontalContainer. This requires 3 params. 1> Context 2> Number of childviews to be           //created to the right. 3> Callback
+        CircleHorizontalContainer circleHorizontalContainer = new CircleHorizontalContainer(CustomTabletUIActivity.this, 2,         CustomTabletUIActivity.this);
         rootView.addView(circleHorizontalContainer);// You can add it to your parent view as per requirement.
 
         //ChildViews can be accessed and intialized as below
@@ -34,5 +34,9 @@ Ex:
   leftCircleContainer.setText("learnNcode");
   ```
  
- This is just some experimentation with the canvas.  We haven't used any images, so basically fidgeting with circles on     canvas. If you like it don't forget to star it. Appreciation and comments are always welcome.
+ This UI looks awesome on a tablet you can customize and edit the way you want. Feel free to use it.
+ This is just some experimentation with the canvas. We haven't used any images, so basically fidgeting with circles on      canvas. 
+ 
+ If you like it don't forget to star it. Appreciation and comments are always welcome.
+ 
  Happy coding happy learning :):):)
