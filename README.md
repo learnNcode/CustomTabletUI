@@ -33,6 +33,8 @@ Ex:
   LeftCircleContainer leftCircleContainer = circleHorizontalContainer.getAppNameView();
   leftCircleContainer.setText("learnNcode");
   ```
+  
+  You can check the CustomTabletUIActivity class to see the full functioning code.
  
  This UI looks awesome on a tablet you can customize and edit the way you want. Feel free to use it.
  This is just some experimentation with the canvas. We haven't used any images, so basically fidgeting with circles on      canvas. 
