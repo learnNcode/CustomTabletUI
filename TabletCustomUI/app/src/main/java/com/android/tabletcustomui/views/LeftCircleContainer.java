@@ -73,8 +73,6 @@ public class LeftCircleContainer extends FrameLayout {
         addCircle(0,width - 35, (float) 0.0, 0.9);
         addCircle(0,width - 92, (float)0.1, 0.9);
 
-//        this.addView(leftOuterInnerCircleView);
-//        this.addView(innerCircle);
         this.addView(circleTitleView);
 
         animateClockWise(leftOuterCircleView1);
