@@ -44,7 +44,6 @@ public class CircleHorizontalContainer extends LinearLayoutCompat {
         LeftCircleContainer leftCircleContainer = new LeftCircleContainer(context, (int) (CircleUtils.roundEven(CircleAppConstants.viewHeight * 0.7)));
 
         FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.MATCH_PARENT,FrameLayout.LayoutParams.MATCH_PARENT);
-//                layoutParams.leftMargin = - 170;
         this.setLayoutParams(layoutParams);
         this.addView(leftCircleContainer);
         recursiveAdd(childCount);
