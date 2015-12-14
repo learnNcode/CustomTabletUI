@@ -108,7 +108,6 @@ public class LeftCircleContainer extends FrameLayout {
 
                     canvas.clipPath(clipPath, Region.Op.DIFFERENCE);
 
-//                CircleUtils.drawArc(canvas,pointF,radius,330,10,mPaintClip);
                     canvas.drawArc(mOval, 330, 10, true, mPaintClip);
                     canvas.drawArc(mOval, 342, 20, true, mPaintClip);
                     canvas.drawArc(mOval, 4, 10, true, mPaintClip);
