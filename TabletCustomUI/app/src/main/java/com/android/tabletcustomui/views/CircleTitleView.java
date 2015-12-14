@@ -28,7 +28,6 @@ public class CircleTitleView extends TextView {
 
     private void init(int width) {
 
-//        this.setSingleLine(false);
         this.setGravity(Gravity.CENTER);
         this.setPadding(10, 0, 10, 0);
 
